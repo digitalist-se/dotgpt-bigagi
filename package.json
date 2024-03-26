@@ -18,6 +18,8 @@
     "schema": "src/server/prisma/schema.prisma"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.11.0",
+    "axios": "^1.4.0",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.4",
     "@emotion/server": "^11.11.0",
