@@ -8,12 +8,12 @@
  */
 export const Brand = {
   Title: {
-    Base: 'Digitalist GPT',
-    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'Dgititalist GPT',
+    Base: 'DOT-AGI',
+    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'DOT-AGI',
   },
   Meta: {
     Description: 'Leading open-source AI web interface to help you learn, think, and do. AI personas, superior privacy, advanced features, and fun UX.',
-    SiteName: 'Digitalist GPT',
+    SiteName: 'DOT-AGI',
     ThemeColor: '#32383E',
     TwitterSite: '@enricoros',
   },
@@ -28,3 +28,4 @@ export const Brand = {
     PrivacyPolicy: 'https://big-agi.com/privacy',
   },
 } as const;
+
