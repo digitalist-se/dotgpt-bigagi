@@ -35,6 +35,9 @@ const MyApp = ({ Component, emotionCache, pageProps }: MyAppProps) =>
         content="default-src 'self' *.google.com *.googleapis.com;
         script-src 'self' 'unsafe-eval' 'unsafe-inline' *.google.com *.googleapis.com;
         style-src 'self' 'unsafe-inline';"/>
+      <meta
+        httpEquiv="Strict-Transport-Security"
+        content="max-age=31536000; includeSubDomains"/>
     </Head>
 
 
