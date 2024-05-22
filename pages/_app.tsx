@@ -33,7 +33,7 @@ const MyApp = ({ Component, emotionCache, pageProps }: MyAppProps) =>
       <meta
         httpEquiv="Content-Security-Policy"
         content="default-src 'self' *.google.com *.googleapis.com;
-        script-src 'self' 'unsafe-eval' *.google.com *.googleapis.com;
+        script-src 'self' 'unsafe-eval' 'unsafe-inline' *.google.com *.googleapis.com;
         style-src 'self' 'unsafe-inline';"/>
     </Head>
 
