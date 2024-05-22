@@ -29,8 +29,14 @@ const MyApp = ({ Component, emotionCache, pageProps }: MyAppProps) =>
 
     <Head>
       <title>{Brand.Title.Common}</title>
-      <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no' />
+      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+      <meta
+        httpEquiv="Content-Security-Policy"
+        content="default-src 'self' *.google.com *.googleapis.com;
+        script-src 'self' 'unsafe-eval' *.google.com *.googleapis.com;
+        style-src 'self' 'unsafe-inline';"/>
     </Head>
+
 
     <GoogleOAuthProvider clientId="256517722247-st7cld81nhtd9fjhhnlgv2v5fb36qu9k.apps.googleusercontent.com">
     <ProviderTheming emotionCache={emotionCache}>
